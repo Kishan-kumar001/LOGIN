@@ -89,6 +89,17 @@
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.white_btn:hover {
+  box-shadow: 3px 3px 20px 5px black;
+  transform: scale(1.02);
+}
+
+.green_btn:hover {
+  box-shadow: 3px 3px 20px 5px black;
+  transform: scale(1.02);
 }
 
 .green_btn {

@@ -24,4 +24,17 @@
   font-size: 14px;
   cursor: pointer;
   margin-right: 20px;
+  transition: 0.2s ease;
+}
+
+.white_btn:hover {
+  box-shadow: 3px 3px 20px 5px black;
+  transform: scale(1.02);
+}
+
+.text {
+  display: grid;
+  place-items: center;
+  height: 80vh; /* Full viewport height */
+  margin: 0;
 }
