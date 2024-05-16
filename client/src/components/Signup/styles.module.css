@@ -22,7 +22,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #3bb19b;
+  background-color: #bed7dc;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -40,7 +40,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #f1eedc;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -65,6 +65,10 @@
   background-color: #edf5f3;
   margin: 5px 0;
   font-size: 14px;
+}
+
+.input:focus {
+  box-shadow: 0px 1px 10px 2px #bed7dc;
 }
 
 .error_msg {
@@ -93,17 +97,21 @@
 }
 
 .white_btn:hover {
-  box-shadow: 3px 3px 20px 5px black;
-  transform: scale(1.02);
+  box-shadow: 0px 1px 10px 2px black;
+  transform: scale(1.01);
 }
 
 .green_btn:hover {
-  box-shadow: 3px 3px 20px 5px black;
-  transform: scale(1.02);
+  box-shadow: 0px 1px 10px 2px black;
+  transform: scale(1.01);
+}
+
+.white_btn {
+  background-color: #f1eedc;
 }
 
 .green_btn {
-  background-color: #3bb19b;
+  background-color: #bed7dc;
   color: white;
   margin: 10px;
 }
